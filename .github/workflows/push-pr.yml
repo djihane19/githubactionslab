@@ -1,9 +1,9 @@
 on:
     push:
-        branch:
+        branches:
             - master
             - "release/**"
-        path:
+        paths:
             - "src/**"
     pull_request:
         branches:
