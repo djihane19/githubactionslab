@@ -1,5 +1,5 @@
-function greet(name){
-    return `Hello, ${name}!`
+function greet(nom){
+    return `Hello, ${nom}!`
 }
 
 module.exports = greet; //Ensure function is exportable
